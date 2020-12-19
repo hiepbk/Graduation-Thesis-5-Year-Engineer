@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hiep anh , hiep, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+D:\HOC TAP\DATN\DATN HIEP\FIRMWARE\code\code_hiep\Code Stm32\TL-main\MDK-ARM\TL_main.uvprojx
+Project File Date:  06/13/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'TL_main'
+compiling main.c...
+../Inc/ADE7753.h(241): warning:  #1295-D: Deprecated declaration getVersion - give arg types
+  	uint8_t getVersion();
+../Inc/ADE7753.h(243): warning:  #1295-D: Deprecated declaration getMode_1 - give arg types
+  	uint16_t getMode_1();
+../Inc/ADE7753.h(244): warning:  #1295-D: Deprecated declaration getMode_2 - give arg types
+  	uint16_t getMode_2();
+../Inc/ADE7753.h(257): warning:  #1295-D: Deprecated declaration vrms1 - give arg types
+  	float vrms1();
+../Inc/ADE7753.h(258): warning:  #1295-D: Deprecated declaration vrms2 - give arg types
+  	float vrms2();
+../Inc/ADE7753.h(259): warning:  #1295-D: Deprecated declaration irms1 - give arg types
+  	float irms1();
+../Inc/ADE7753.h(260): warning:  #1295-D: Deprecated declaration irms2 - give arg types
+  	float irms2();
+../Inc/ADE7753.h(267): warning:  #1295-D: Deprecated declaration getZeroCrossingTimeout_1 - give arg types
+  	uint16_t getZeroCrossingTimeout_1();
+../Inc/ADE7753.h(268): warning:  #1295-D: Deprecated declaration getZeroCrossingTimeout_2 - give arg types
+  	uint16_t getZeroCrossingTimeout_2();
+../Inc/ADE7753.h(269): warning:  #1295-D: Deprecated declaration getSagCycles_1 - give arg types
+  	uint8_t getSagCycles_1();
+../Inc/ADE7753.h(270): warning:  #1295-D: Deprecated declaration getSagCycles_2 - give arg types
+  	uint8_t getSagCycles_2();
+../Inc/ADE7753.h(272): warning:  #1295-D: Deprecated declaration getSagVoltageLevel_1 - give arg types
+  	uint8_t getSagVoltageLevel_1();
+../Inc/ADE7753.h(273): warning:  #1295-D: Deprecated declaration getSagVoltageLevel_2 - give arg types
+  	uint8_t getSagVoltageLevel_2();
+../Inc/ADE7753.h(275): warning:  #1295-D: Deprecated declaration getIPeakLevel - give arg types
+  	uint8_t getIPeakLevel();
+../Inc/ADE7753.h(277): warning:  #1295-D: Deprecated declaration getVPeakLevel - give arg types
+  	uint8_t getVPeakLevel();
+../Inc/ADE7753.h(282): warning:  #1295-D: Deprecated declaration getP1 - give arg types
+  	uint32_t getP1();
+../Inc/ADE7753.h(285): warning:  #1295-D: Deprecated declaration getP2 - give arg types
+  	uint32_t getP2();
+../Inc/modbusRTU.h(33): warning:  #1295-D: Deprecated declaration RECEIVER_EN - give arg types
+  void RECEIVER_EN();
+../Inc/modbusRTU.h(34): warning:  #1295-D: Deprecated declaration TRANSFER_EN - give arg types
+  void TRANSFER_EN();
+../Src/main.c(187): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if((Flag1s>=0)&&(Flag1s<20)){
+../Src/main.c: 20 warnings, 0 errors
+linking...
+Program Size: Code=16328 RO-data=708 RW-data=112 ZI-data=2016  
+FromELF: creating hex file...
+"TL_main\TL_main.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TL_main
+  C:\Users\hiepbk\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\hiepbk\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
